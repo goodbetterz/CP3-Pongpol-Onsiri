@@ -29,3 +29,7 @@ if usernameInput == "good" and passwordInput == "1234":
         total = 30*quatitySelected
         print("Total :", total, "THB")
         print("------------Thank you------------")
+    else:
+        print("Invalid product")
+else:
+    print("Invalid username or password")
